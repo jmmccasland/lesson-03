@@ -1,13 +1,74 @@
-/* \/\/\/\/\/\ Style Resets /\/\/\/\/\/ */
+/* \/\/\/\/\/\/\/\
+-Style Resets-
+/\/\/\/\/\/\/\/\/ */
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 ul {
-  list-style: none;
   padding-left: 0;
+
+  list-style: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+/* \/\/\/\/\/\/\/\
+-Grid & General Layout-
+/\/\/\/\/\/\/\/\/ */
+.section {
+  padding: 2rem;
+  background: #89a4f2;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.row {
+  margin: -2rem;
+  overflow: auto;
+  /*border: 1px solid black;*/
+}
+
+.grid-item {
+  width: calc(100% / 4 - 2rem - 2rem);
+  min-width: 8rem;
+  margin: 2rem;
+  float: left;
+}
+
+/* \/\/\/\/\/\/\/\
+-Prompt-
+/\/\/\/\/\/\/\/\/ */
+
+.prompt {
+  text-align: center;
+}
+
+/* \/\/\/\/\/\/\/\
+-Profile Styles-
+/\/\/\/\/\/\/\/\/ */
+
+.profile {
+  margin: 0;
+}
+
+.profile__username {
+  text-align: center;
+
+  font-size: 1.5rem;
 }
